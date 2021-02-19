@@ -1,0 +1,45 @@
+.tableStyle {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableStylesub {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableStyle td, .tableStyle th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-align: center;
+}
+
+.tableStylesub td, .tableStylesub th {
+  border: 1px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+
+.tableStyle tr:nth-child(even){background-color: #f2f2f2;}
+.tableStylesub tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableStyle tr:hover {background-color: #ddd;}
+.tableStylesub tr:hover {background-color: #ddd;}
+
+.tableStyle th {
+  padding-top: 2px; 
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: #009688;
+  color: white;
+}
+
+@media print{
+ .tableStyle th {
+  padding-top: 2px; 
+  padding-bottom: 2px;
+  text-align: center;
+  background-color: white;
+  color: #000;
+}
